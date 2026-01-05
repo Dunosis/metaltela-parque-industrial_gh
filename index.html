@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="shortcut icon" href="assets/logos/metaltela-logo.png" type="image/png">
+    
+    <meta name="theme-color" content="#ffffff">
+
+    <title>Metaltela Ltda. - Empresa de mallas, zarandas, y chapa expandida</title>
+    <meta name="description" 
+            content="Empresa de mallas, zarandas, y chapa expandida - SCZ Bolivia">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="Metaltela Ltda." />
+    <meta property="og:description" 
+                        content="Fábrica de mallas, zarandas, y chapa expandida - SCZ Bolivia" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="assets/images/logos/metaltela-logo.png" />
+
+    <!-- Twitter -->
+    <!-- Some of the meta tags specific to twitter has been dropped in favor of OG tags, Since twitter also supports OG tags as fallback
+    https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started -->
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/index.css">
+    
+    <!-- Flowbite CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.css" rel="stylesheet" />
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css" integrity="sha512-rd0qOHVMOcez6pLWPVFIv7EfSdGKLt+eafXh4RO/12Fgr41hDQxfGvoi1Vy55QIVcQEujUE1LQrATCLl2Fs+ag==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js" integrity="sha512-2rNj2KJ+D8s1ceNasTIex6z4HWyOnEYLVC3FigGOmyQCZc2eBXKgOxQmo3oKLHyfcj53uz4QMsRCWNbLd32Q1g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js"></script>
+    
+    <script defer data-domain="metaltelaparqueindustrial.com" src="https://analytics.dunosis.com/js/script.file-downloads.tagged-events.js"></script>
+    <!-- Google tag (gtag.js) -->
+    <!-- Replace YOUR_ANALYTICS_TAG_ID with your actual Google Analytics ID -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR_ANALYTICS_TAG_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'YOUR_ANALYTICS_TAG_ID');
+    </script>
+
+</head>
+    
+<body class="min-h-[100vh] w-full bg-[#ffffff] flex flex-col">
+
+    <div class="w-full h-full">
+        <!-- {% block content %} -->
+         
+        
+        <section class="relative w-full min-h-screen bg-mt-yellow">
+            <div class="mx-auto flex flex-col lg:flex-row items-center gap-6 md:gap-12 h-full">
+                <!-- Image Container -->
+                <div class="w-full h-full lg:w-1/2">
+                    <img loading="lazy" src="assets/images/home/mt-home-tienda.jpg" alt="MetalTela Tienda" class="w-full h-screen object-cover">
+                </div>
+                
+                <!-- Text Container -->
+                <div class="w-[90%] lg:w-1/2 md:max-w-[580px] max-w-[350px] bg-mt-blue p-6 md:p-10 rounded-3xl md:rounded-[50px] text-white text-right md:text-right relative lg:-ml-20 mb-20 -mt-20 lg:mt-0">
+                    <h2 class="text-4xl lg:text-7xl md:text-6xl font-bold">
+                    MALLAS ZARANDAS Y MUCHO MÁS EN EL <span class="text-mt-yellow">PARQUE INDUSTRIAL</span>
+                    </h2>
+                </div>
+            </div>
+        </section>
+        
+        <section class="w-full bg-mt-blue text-white py-12">
+            <div class="container mx-auto text-center">
+                <h2 class="text-3xl lg:text-5xl font-bold mb-8">CONOCE NUESTROS PRODUCTOS</h2>
+                    <!-- Carousel -->
+                    <div id="animation-carousel" class="relative w-[90%] mx-auto" data-carousel="slide">
+                        <!-- Carousel wrapper -->
+                        <div class="relative h-[450px] overflow-hidden rounded-2xl">
+                            <!-- Item 1 -->
+                            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                                <img loading="lazy" src="assets/images/home/mt-products-1.jpg" class="absolute block w-full h-full object-cover" alt="Metaltela Mallas, Zarandas, y Chapas Expandidas Productos 1">
+                            </div>
+                            <!-- Item 2 -->
+                            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                                <img loading="lazy" src="assets/images/home/mt-products-2.jpg" class="absolute block w-full h-full object-cover" alt="Metaltela Mallas, Zarandas, y Chapas Expandidas Productos 2">
+                            </div>
+                            <!-- Item 3 -->
+                            <div class="duration-700 ease-in-out" data-carousel-item="active">
+                                <img loading="lazy" src="assets/images/home/mt-products-3.jpg" class="absolute block w-full h-full object-cover" alt="Metaltela Mallas, Zarandas, y Chapas Expandidas Productos 3">
+                            </div>
+                            <!-- Item 4 -->
+                            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                                <img loading="lazy" src="assets/images/home/mt-products-4.jpg" class="absolute block w-full h-full object-cover" alt="Metaltela Mallas, Zarandas, y Chapas Expandidas Productos 4">
+                            </div>
+                            <!-- Item 5 -->
+                            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                                <img loading="lazy" src="assets/images/home/mt-products-5.jpg" class="absolute block w-full h-full object-cover" alt="Metaltela Mallas, Zarandas, y Chapas Expandidas Productos 5">
+                            </div>
+                            <!-- Item 6 -->
+                            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                                <img loading="lazy" src="assets/images/home/mt-products-6.jpg" class="absolute block w-full h-full object-cover" alt="Metaltela Mallas, Zarandas, y Chapas Expandidas Productos 6">
+                            </div>
+                        </div>
+                        <!-- Slider controls -->
+                        <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+                            <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                                <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+                                </svg>
+                                <span class="sr-only">Previous</span>
+                            </span>
+                        </button>
+                        <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+                            <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                                <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+                                </svg>
+                                <span class="sr-only">Next</span>
+                            </span>
+                        </button>
+                    </div>
+        
+                <a href="assets/catalog/metaltela-catalogo.pdf" download>
+                    <button class="plausible-event-name=catalogo mt-8 font-bold bg-mt-yellow text-white py-2 px-6 rounded-full">DESCARGAR CATÁLOGO</button>
+                </a>
+            </div>
+        </section>
+        
+        <section class="w-full bg-mt-yellow text-white py-12">
+            <div class="container mx-auto text-center">
+                <h2 class="text-3xl lg:text-5xl font-bold mb-8">¡ESTAMOS EN EL PARQUE INDUSTRIAL!</h2>
+                <div class="w-[90%] sm:w-full min-h-[450px] mx-auto flex justify-center rounded-3xl overflow-hidden">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3799.989169065469!2d-63.1405088!3d-17.7451495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93f1e78e441ea6b7%3A0x8a9c9ac836c90472!2sMetaltela%20Parque%20Industrial!5e0!3m2!1sen!2sus!4v1739568042098!5m2!1sen!2sus" style="border:0; width: 100%; " allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+        
+        <section class="w-full bg-mt-green text-white py-8">
+            <div class="w-full h-full text-center">
+                <h2 class="text-3xl lg:text-5xl font-bold">
+                    <a href="https://wa.link/uo76rc" class="block w-full h-full text-white no-underline">
+                        ¡HAZ CLIC AQUÍ PARA ESCRIBIRNOS AL WHATSAPP!
+                    </a>
+                </h2>
+            </div>
+        </section>
+        
+        <section class="w-full bg-mt-blue text-white py-8">
+            <div class="container mx-auto text-center py-10">
+                <h2 class="text-3xl lg:text-5xl font-bold mb-6">SÍGUENOS EN NUESTRAS REDES SOCIALES</h2>
+                <div class="flex justify-center gap-6">
+                    <a href="https://www.facebook.com/share/1DyUh2vsZs/?mibextid=wwXIfr" target="_blank" class="text-white">
+                        <i class="bi bi-facebook text-4xl"></i>
+                    </a>
+                    <a href="https://www.instagram.com/metaltelaparqueindustrial" target="_blank" class="text-white">
+                        <i class="bi bi-instagram text-4xl"></i>
+                    </a>
+                    <a href="https://youtube.com/@metaltelaparqueindustrial" target="_blank" class="text-white">
+                        <i class="bi bi-youtube text-4xl"></i>
+                    </a>
+                    <a href="https://tiktok.com/@metaltelaparqueindus" target="_blank" class="text-white">
+                        <i class="bi bi-tiktok text-4xl"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+
+        
+        <!-- {% endblock content %} -->
+    </div>
+
+</body>
+
+<script>
+    // Timezone settings
+    const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone; // e.g. "America/New_York"
+    document.cookie = "user_timezone=" + timezone;
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js" integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/browser-image-compression@2.0.1/dist/browser-image-compression.js"></script>
+
+<script>
+    const STATIC_URL = "/" 
+</script>
+
+<script src="./js/utils/elements.js"></script>
+<script src="./js/utils/common.js"></script>
+<script src="./js/utils/images.js"></script>
+<script src="./js/utils/constants.js"></script>
+
+<script src="./js/base.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js" integrity="sha512-Ysw1DcK1P+uYLqprEAzNQJP+J4hTx4t/3X2nbVwszao8wD+9afLjBQYjz7Uk4ADP+Er++mJoScI42ueGtQOzEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+<script src="./js/home.js"></script>
+<!-- Flowbite JS - Must be loaded after DOM is ready -->
+<script src="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.js"></script>
+<!-- Floating WhatsApp Button -->
+<a href="https://wa.link/uo76rc" class="whatsapp-float" target="_blank">
+    <img loading="lazy" src="./assets/images/home/whatsapp-icon.png" alt="WhatsApp" class="whatsapp-icon transition ease-in-out duration-300">
+</a>
+
+<style>
+    .whatsapp-float {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 1000;
+        transition: opacity 0.5s ease, visibility 0.5s ease;
+    }
+    .whatsapp-icon {
+        width: 60px;
+        height: 60px;
+    }
+    .whatsapp-float.hidden {
+        opacity: 0;
+        visibility: hidden;
+    }
+</style>
+<script>
+    // Hide the WhatsApp button when it reaches the WhatsApp banner section
+    document.addEventListener('scroll', function() {
+        const whatsappButton = document.querySelector('.whatsapp-float');
+        const whatsappBanner = document.querySelector('.bg-mt-green');
+        const bannerPosition = whatsappBanner.getBoundingClientRect().top;
+        const windowHeight = window.innerHeight;
+
+        if (bannerPosition <= windowHeight) {
+            whatsappButton.classList.add('hidden');
+        } else {
+            whatsappButton.classList.remove('hidden');
+        }
+    });
+</script>
+
+</html>
